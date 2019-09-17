@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/adduser_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_margin="5dp"
+        android:text="add user" />
+
+    <Button
+        android:id="@+id/viewuser_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_margin="5dp"
+        android:text="view users" />
+
+    <Button
+        android:id="@+id/deleteuser_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_margin="5dp"
+        android:text="delete user" />
+
+    <Button
+        android:id="@+id/updateuser_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_margin="5dp"
+        android:text="update user" />
+</LinearLayout>
